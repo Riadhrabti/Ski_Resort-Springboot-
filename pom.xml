@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>tn.esprit.tic</groupId>
-    <artifactId>SKI_RiadhRa</artifactId>
+    <artifactId>Ski-Oussema-F</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SKI_RiadhRa</name>
-    <description>SKI_RiadhRa</description>
+    <name>Ski-Oussema-F</name>
+    <description>Ski-Oussema-F</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -40,6 +40,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.9</version>
         </dependency>
     </dependencies>
 
